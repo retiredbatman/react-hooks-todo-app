@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.FilterActive {
+  border: 1px solid orangered;
+}
+
+.Strike {
+  text-decoration: line-through;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid orangered;
+}
+
+.add-todo {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px 10px 10px 30px;
+}
+
+.list {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
